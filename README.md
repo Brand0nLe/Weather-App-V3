@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Weather App Rebuild
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a revamp of my Weather App built with React,js, TypeScript, and Bootstrap. I first built this in Javascript, then again in React.js, and now once more but enhanced with TypeScript and further modifications. The application allows users to search for weather information about different locations and provides them with the current temperature, high and low temperatures for the day, as well as a 5-day forecast. The project utilizes the OpenWeather API (https://openweathermap.org/api) to fetch weather data and displays images related to the weather conditions. As well as a favorites page to manage favorite locations.
 
-## Available Scripts
+**Check out the deployed application [Coming Soon...](https://urlgoeshere.azurewebsites.net/).**
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Search functionality to find weather information for different locations
+- Display of current temperature, high and low temperatures, and weather conditions
+- 5-day forecast for the searched location
+- Favorites page to store and manage favorite locations
+- Clicking on favorited locations in the list will open a card with their current temp
+- Responsive design that adapts to different screen sizes and devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React.js
+- React-Router
+- TypeScript
+- Bootstrap
+- CSS
+- HTML
+- RESTful API: OpenWeather API (https://openweathermap.org/api)
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project, follow these steps:
 
-### `npm run build`
+1. Clone the repository to your local machine
+2. Install dependencies by running `npm install` in the project directory
+3. Obtain an API key from OpenWeather by signing up on their website (https://openweathermap.org/guide)
+4. Create a new file named `.env` in the root directory of the project
+5. In the `.env` file, add the following line and replace `YOUR_OPENWEATHER_API_KEY` with your actual OpenWeather API key: REACT_APP_OPENWEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY
+6. Start the development server by running `npm start`
+7. Open `http://localhost:3000` in your web browser to view the site
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Note:** Make sure to keep your API key confidential and do not commit the `.env` file to any public repositories. The `.env` file is already added to the `.gitignore`, so it won't be uploaded to the repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you have any questions or feedback about this project, feel free to contact me at [brandonctle.dev@gmail.com](mailto:brandonctle.dev@gmail.com).
 
-### `npm run eject`
+Connect with me on [LinkedIn](https://www.linkedin.com/in/brandonctle/) to stay updated on my latest projects and professional profile.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can also [visit my portfolio website](https://www.brandonle.azurewebsites.net).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thanks for visiting!
