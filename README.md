@@ -1,5 +1,9 @@
 # Weather App Rebuild - IN DEVELOPMENT
 
+This is just a note for while I'm in development stages: 
+
+>Although there are many weather apps out in the tech world, my reason for revisiting this project wasn't to add to my portfolio. My objective is to be able to bring my new skills and enhance an old project that I didn't do very well on before. My first attempt was with Javascript, and then again in React.js afterwards. This time I'm challenging myself by trying once again, this time with Typescript. I've started the basic set up and I've already been able to do something I wasn't able to do in the past, get local storage to work for the favorites list when it's routed on a different page. I was able to do it all on a single page prior, butnow that I have the favorites page working in my React.js file, I decided I wanted to convert the whole project into Typescript, better utilize bootstrap for more modern styles, and I plan to add a few more unmentioned features in the future. If you're interested in the future of this app, feel free to give it a star or contact me to keep in touch! Thanks for reading this far!
+
 This is a revamp of my Weather App built with React,js, TypeScript, and Bootstrap. I first built this in Javascript, then again in React.js, and now once more but enhanced with TypeScript and further modifications. The application allows users to search for weather information about different locations and provides them with the current temperature, high and low temperatures for the day, as well as a 5-day forecast. The project utilizes the OpenWeather API (https://openweathermap.org/api) to fetch weather data and displays images related to the weather conditions. As well as a favorites page to manage favorite locations.
 
 **Check out the deployed application [In Development...](https://urlgoeshere.azurewebsites.net/).**
