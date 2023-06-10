@@ -6,7 +6,10 @@ This is just a note for while I'm in development stages:
 
 This is a revamp of my Weather App built with React,js, TypeScript, and Bootstrap. I first built this in Javascript, then again in React.js, and now once more but enhanced with TypeScript and further modifications. The application allows users to search for weather information about different locations and provides them with the current temperature, high and low temperatures for the day, as well as a 5-day forecast. The project utilizes the OpenWeather API (https://openweathermap.org/api) to fetch weather data and displays images related to the weather conditions. As well as a favorites page to manage favorite locations.
 
-**Check out the deployed application [In Development...](https://urlgoeshere.azurewebsites.net/).**
+## Deployment
+
+The application is deployed on Azure and can be accessed using the following link:
+[In development...](https://urlgoeshere.azurewebsites.net/)
 
 ## Features
 
